@@ -92,6 +92,20 @@ struct SFSymbolsDiceView: View {
         }
     }
     
+    var sevenSplit: some View {
+        ZStack {
+            Image(systemName: "die.face.6")
+                .resizable()
+                .foregroundColor(.red)
+                .opacity(0.5)
+            Image(systemName: "die.face.1")
+                .resizable()
+                .foregroundColor(.blue)
+                .offset(x: 5, y: 5)
+                .opacity(0.5)
+        }
+    }
+        
     var eight: some View {
         ZStack {
             Image(systemName: "die.face.6")
@@ -99,6 +113,21 @@ struct SFSymbolsDiceView: View {
             Image(systemName: "die.face.6")
                 .resizable()
                 .rotationEffect(.degrees(90))
+        }
+    }
+    
+    var eightSplit: some View {
+        ZStack {
+            Image(systemName: "die.face.6")
+                .resizable()
+                .foregroundColor(.red)
+                .opacity(0.5)
+            Image(systemName: "die.face.6")
+                .resizable()
+                .foregroundColor(.blue)
+                .rotationEffect(.degrees(90))
+                .offset(x: 5, y: 5)
+                .opacity(0.5)
         }
     }
     
@@ -110,17 +139,34 @@ struct SFSymbolsDiceView: View {
         }
     }
     
+    var nineSplit: some View {
+        ZStack {
+            eightSplit
+            Image(systemName: "die.face.1")
+                .resizable()
+                .foregroundColor(.green)
+                .offset(x: 10, y: 10)
+                .opacity(0.5)
+        }
+    }
+    
     var body: some View {
         VStack {
             OneThroughSixDieView()
+                .padding()
             HStack {
                 Group {
+                    sevenSplit
                     seven
+                    eightSplit
                     eight
+                    nineSplit
                     nine
                 }
                 .frame(width: 50, height: 50)
             }
+            .padding()
+            
             LargeDieView()
                 .frame(width: 50, height: 50)
         }
