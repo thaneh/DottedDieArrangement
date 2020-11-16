@@ -9,7 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        SFSymbolsDiceView()
+        TabView {
+            DottedDiceView2()
+                .tabItem { Text("List") }
+            
+            DottedDiceView3()
+                .tabItem { Text("3-Rows") }
+            
+            DottedDiceView4()
+                .tabItem { Text("Any") }
+        }
     }
 }
 

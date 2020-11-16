@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F03AAFDA255A43E3008F3282 /* DotArrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03AAFD9255A43E3008F3282 /* DotArrangement.swift */; };
+		F03AAFDF255A440D008F3282 /* DotArrangement1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03AAFDE255A440D008F3282 /* DotArrangement1.swift */; };
+		F03AAFEC255A4653008F3282 /* DotArrangement1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03AAFEB255A4653008F3282 /* DotArrangement1Tests.swift */; };
 		F074E2672558BFDC0005435A /* DottedDieArrangementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F074E2662558BFDC0005435A /* DottedDieArrangementApp.swift */; };
 		F074E2692558BFDC0005435A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F074E2682558BFDC0005435A /* ContentView.swift */; };
 		F074E26B2558BFDE0005435A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F074E26A2558BFDE0005435A /* Assets.xcassets */; };
@@ -14,6 +17,11 @@
 		F074E2792558BFDE0005435A /* DottedDieArrangementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F074E2782558BFDE0005435A /* DottedDieArrangementTests.swift */; };
 		F074E2842558BFDE0005435A /* DottedDieArrangementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F074E2832558BFDE0005435A /* DottedDieArrangementUITests.swift */; };
 		F074E2952558C08F0005435A /* SFSymbolsDiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F074E2942558C08F0005435A /* SFSymbolsDiceView.swift */; };
+		F0AC2FD42561AD1F00C0A413 /* DottedDiceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AC2FD32561AD1F00C0A413 /* DottedDiceView1.swift */; };
+		F0AC2FDC2561E5B900C0A413 /* DottedDiceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AC2FDB2561E5B900C0A413 /* DottedDiceView2.swift */; };
+		F0AC2FE12561E64B00C0A413 /* DottedDieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AC2FE02561E64B00C0A413 /* DottedDieView.swift */; };
+		F0AC2FE62561F87F00C0A413 /* DottedDiceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AC2FE52561F87F00C0A413 /* DottedDiceView3.swift */; };
+		F0AC2FEB2561FA1C00C0A413 /* DottedDiceView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AC2FEA2561FA1C00C0A413 /* DottedDiceView4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F03AAFD9255A43E3008F3282 /* DotArrangement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotArrangement.swift; sourceTree = "<group>"; };
+		F03AAFDE255A440D008F3282 /* DotArrangement1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotArrangement1.swift; sourceTree = "<group>"; };
+		F03AAFE3255A45C4008F3282 /* DotArrangementTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotArrangementTests.swift; sourceTree = "<group>"; };
+		F03AAFEB255A4653008F3282 /* DotArrangement1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotArrangement1Tests.swift; sourceTree = "<group>"; };
 		F074E2632558BFDC0005435A /* DottedDieArrangement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DottedDieArrangement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F074E2662558BFDC0005435A /* DottedDieArrangementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedDieArrangementApp.swift; sourceTree = "<group>"; };
 		F074E2682558BFDC0005435A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +59,11 @@
 		F074E2832558BFDE0005435A /* DottedDieArrangementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedDieArrangementUITests.swift; sourceTree = "<group>"; };
 		F074E2852558BFDE0005435A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F074E2942558C08F0005435A /* SFSymbolsDiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsDiceView.swift; sourceTree = "<group>"; };
+		F0AC2FD32561AD1F00C0A413 /* DottedDiceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedDiceView1.swift; sourceTree = "<group>"; };
+		F0AC2FDB2561E5B900C0A413 /* DottedDiceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedDiceView2.swift; sourceTree = "<group>"; };
+		F0AC2FE02561E64B00C0A413 /* DottedDieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedDieView.swift; sourceTree = "<group>"; };
+		F0AC2FE52561F87F00C0A413 /* DottedDiceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedDiceView3.swift; sourceTree = "<group>"; };
+		F0AC2FEA2561FA1C00C0A413 /* DottedDiceView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedDiceView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +116,14 @@
 			children = (
 				F074E2662558BFDC0005435A /* DottedDieArrangementApp.swift */,
 				F074E2682558BFDC0005435A /* ContentView.swift */,
+				F0AC2FD32561AD1F00C0A413 /* DottedDiceView1.swift */,
+				F0AC2FE02561E64B00C0A413 /* DottedDieView.swift */,
+				F0AC2FDB2561E5B900C0A413 /* DottedDiceView2.swift */,
+				F0AC2FE52561F87F00C0A413 /* DottedDiceView3.swift */,
+				F0AC2FEA2561FA1C00C0A413 /* DottedDiceView4.swift */,
 				F074E2942558C08F0005435A /* SFSymbolsDiceView.swift */,
+				F03AAFD9255A43E3008F3282 /* DotArrangement.swift */,
+				F03AAFDE255A440D008F3282 /* DotArrangement1.swift */,
 				F074E26A2558BFDE0005435A /* Assets.xcassets */,
 				F074E26F2558BFDE0005435A /* Info.plist */,
 				F074E26C2558BFDE0005435A /* Preview Content */,
@@ -119,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				F074E2782558BFDE0005435A /* DottedDieArrangementTests.swift */,
+				F03AAFE3255A45C4008F3282 /* DotArrangementTests.swift */,
+				F03AAFEB255A4653008F3282 /* DotArrangement1Tests.swift */,
 				F074E27A2558BFDE0005435A /* Info.plist */,
 			);
 			path = DottedDieArrangementTests;
@@ -262,9 +288,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03AAFDF255A440D008F3282 /* DotArrangement1.swift in Sources */,
 				F074E2952558C08F0005435A /* SFSymbolsDiceView.swift in Sources */,
 				F074E2692558BFDC0005435A /* ContentView.swift in Sources */,
+				F0AC2FD42561AD1F00C0A413 /* DottedDiceView1.swift in Sources */,
+				F0AC2FDC2561E5B900C0A413 /* DottedDiceView2.swift in Sources */,
+				F0AC2FE62561F87F00C0A413 /* DottedDiceView3.swift in Sources */,
+				F03AAFDA255A43E3008F3282 /* DotArrangement.swift in Sources */,
 				F074E2672558BFDC0005435A /* DottedDieArrangementApp.swift in Sources */,
+				F0AC2FEB2561FA1C00C0A413 /* DottedDiceView4.swift in Sources */,
+				F0AC2FE12561E64B00C0A413 /* DottedDieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03AAFEC255A4653008F3282 /* DotArrangement1Tests.swift in Sources */,
 				F074E2792558BFDE0005435A /* DottedDieArrangementTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
